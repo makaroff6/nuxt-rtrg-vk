@@ -34,3 +34,12 @@ List of possible options in the module:
 | id  | null     | true     | The unique retargeting identifier provided by VK.                                         |
 | priceListId  | null     | false     | The unique price list identifier provided by VK. Set it if you want to push custom events                                        |
 | debug    | false | false    | By default, tracking in development mode is disabled. By specifying `true`, you manually allow tracking in development mode.                                                               |
+
+## Module instance
+The tracking instance is available on all vue component instances as $vkRtrg. 
+It has one method - productEvent(event, payload)
+
+| Option   | Type     | Required | Description                                                                               |
+|----------|----------|----------|-------------------------------------------------------------------------------------------|
+| event    | String   | true     | Custom event name 
+| payload  | Object   | false    | Custom event payload 

@@ -1,6 +1,6 @@
 {
   "name": "nuxt-rtrg-vk",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Nuxt vk retargeting plugin",
   "main": "index.js",
   "author": "Uriy Makarov <makaroff66@yandex.ru>",
