@@ -1,0 +1,27 @@
+{
+  "name": "nuxt-rtrg-vk",
+  "version": "0.0.1",
+  "description": "Nuxt vk retargeting plugin",
+  "main": "index.js",
+  "author": "Uriy Makarov <makaroff66@yandex.ru>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "vk",
+    "rtrg",
+    "pixel"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makaroff6/nuxt-rtrg-vk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/makaroff6/nuxt-rtrg-vk/issues"
+  },
+  "homepage": "https://github.com/makaroff6/nuxt-rtrg-vk#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
